@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": 74410,
+      "data": {
+        "color": "rgb(147, 220, 255)",
+        "count": 189,
+        "icon": "./img/angular.svg",
+        "type": ".NET",
+        "categories": [
+          "TransactionTechnolgy"
+        ]
+      },
+      "attributes": {
+        "image": {
+          "url": "./img/angular.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(147, 220, 255)",
+          "threshold": 0
+        },
+        "outerStroke": {
+          "width": 3,
+          "color": "transparent",
+          "threshold": 0
+        },
+        "badges": {
+          "bottomRight": {
+            "color": "rgb(147, 220, 255)",
+            "stroke": {
+              "color": "rgb(147, 220, 255)"
+				},
+            "text": {
+              "content": "189"
+            }
+          }    
+        }
+      },
+      "color": "#fff",
+      "size": 5,
+      "shape": "circle",
+      "text": {
+        "content": ".NET",
+        "secondary": {
+          "content": "hello"
+         }        
+      }
+    },
+    {
+      "id": 75069,
+      "data": {
+        "color": "rgb(147, 220, 255)",
+        "icon": "./img/DotNet.svg",
+        "count": 2,
+        "type": ".NET (Legacy Analyzer)",
+        "categories": [
+          "TransactionTechnolgy"
+        ]
+      },
+      "attributes": {
+        "image": {
+          "url": "./img/DotNet.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(21, 155, 219)",
+          "threshold": 0
+        },
+        "outerStroke": {
+          "width": 3,
+          "color": "transparent",
+          "threshold": 0
+        },
+		 "badges": {
+          "bottomRight": {
+			"stroke": {
+              "color": "rgb(147, 220, 255)"
+				},
+			"image":"./img/angular.svg"           
+          }    
+        }
+      },     
+      "color": "#fff",
+      "size": 5,
+      "shape": "circle",
+      "text": ".NET (Legacy Analyze..."
+    }    
+  ],
+  "edges": [
+    {
+      "id": 342864,
+      "data": {
+        "count": 2,
+        "relationshipCount": 2,
+        "type": "References"
+      },
+	  "outline": {
+		  "enabled": false,
+		  "color": "rgba(0, 0, 0, 0.36)"
+	  },
+	  
+	    "text": 2,
+	    "width": 0.4,
+		"color": "grey",
+		"attributes": {
+        "shape":"arrow"
+		},
+		"strokeWidth": 2,
+		"threshold": 0,
+		"text": {
+		  "content": "References (1)",
+		  "font": "Arial",
+		  "color": "black",
+		  "size": 10,
+		  "scale": 1,
+		  "scaling": false,
+		  "style": "none",
+		  "backgroundColor": "rgba(244,244,247,0.8)",
+		  "backgroundMargin": 2,
+		  "threshold": 0,
+		  "maxLineLength": 140		  
+		},
+      "source": 75069,
+      "target": 74410
+    }  
+   
+  ]
+}

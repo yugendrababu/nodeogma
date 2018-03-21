@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./ogma/build/ogma.min.js"></script>
+  <style>
+    #graph-container { top: 53px; bottom: 0; left: 0; right: 0; position: absolute; margin: 0; overflow: hidden; }
+  </style>
+</head>
+<body>
+	<div class="">
+    <button type="button" onclick="hello()" name="button">hello</button>
+
+  </div>
+  <div id="graph-container"></div>
+
+<script>
+'use strict';
+
+var ogma = new Ogma({
+  container: 'graph-container',
+  renderer: 'canvas',
+});
+
+ogma.parse.jsonFromUrl('test').then(function (graph) {
+  ogma.setGraph(graph);
+  ogma.view.locateGraph();
+  console.log('import done');
+});
+ogma.styles.addNodeRule({
+  text: {
+    content: function (n) { return 'Node ' + n.getId(); },backgroundColor: null
+  }
+});
+ogma.events.onNodesSelected(function (evt) {
+    evt.nodes.setAttributes({
+      outline:{
+        enabled:false
+      },
+      outerStroke:{
+        color:'red'
+      },
+      text:{
+        backgroundColor:'red'
+      }
+      });
+    console.log(evt.nodes.getAttributes());
+});
+
+function hello() {
+  ogma.parse.jsonFromUrl('hello').then(function (graph) {
+    ogma.setGraph(graph);
+    ogma.view.locateGraph();
+    ogma.layouts.forceLink();
+
+    console.log('import done');
+  });
+}
+
+
+// Generate a random graph
+</script>
+
+</body>
+</html>

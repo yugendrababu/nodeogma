@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": 74410,
+      "data": {
+        "color": "rgb(147, 220, 255)",
+        "count": 189,
+        "icon": "./img/angular.svg",
+        "type": ".NET",
+        "categories": [
+          "TransactionTechnolgy"
+        ]
+      },
+      "attributes": {
+        "image": {
+          "url": "./img/angular.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(147, 220, 255)",
+          "threshold": 0
+        },
+        "outerStroke": {
+          "width": 3,
+          "color": "transparent",
+          "threshold": 0
+        },
+        "badges": {
+          "bottomRight": {
+            "color": "rgb(147, 220, 255)",
+            "scale": 0.45,
+            "positionScale": 1,
+            "image": null,
+            "threshold": 6,
+            "stroke": {
+              "color": "rgb(147, 220, 255)",
+              "width": 1
+            },
+            "text": {
+              "content": "189",
+              "color": "white",
+              "font": "Arial",
+              "style": "none",
+              "scale": 1
+            }
+          }    
+        }
+      },
+      "color": "#fff",
+      "size": 5,
+      "shape": "circle",
+      "text": {
+        "content": ".NET",
+        "font": "Arial",
+        "color": "#000000",
+        "size": 14,
+        "scale": 0.2,
+        "backgroundColor": null,
+        "backgroundMargin": 10,
+        "secondary": {
+          "content": "hello",
+          "font": "Arial",
+          "color": "#000000",
+          "size": 10,
+          "scale": 0.15,
+          "style": "none",
+          "backgroundColor": null,
+          "backgroundMargin": 2,
+          "margin": 2
+        },
+        "scaling": false,
+        "style": "none",
+        "position": "bottom",
+        "threshold": 0,
+        "maxLineLength": 0,
+        "truncateLength": 0,
+        "backgroundArrowBaseSize": 10
+      }
+    },
+    {
+      "id": 75069,
+      "data": {
+        "color": "rgb(147, 220, 255)",
+        "icon": "./img/DotNet.svg",
+        "count": 2,
+        "type": ".NET (Legacy Analyzer)",
+        "categories": [
+          "TransactionTechnolgy"
+        ]
+      },
+      "attributes": {
+        "image": {
+          "url": "./img/DotNet.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(21, 155, 219)",
+          "threshold": 0
+        },
+        "outerStroke": {
+          "width": 3,
+          "color": "transparent",
+          "threshold": 0
+        }
+      },     
+      "color": "#fff",
+      "size": 5,
+      "shape": "circle",
+      "text": ".NET (Legacy Analyze..."
+    }    
+  ],
+  "edges": [
+    {
+      "id": 342864,
+      "data": {
+        "count": 2,
+        "relationshipCount": 2,
+        "type": "References"
+      },
+	  "outline": {
+		  "enabled": false,
+		  "color": "rgba(0, 0, 0, 0.36)"
+	  },
+	  
+	    "text": 2,
+	    "width": 0.4,
+		"color": "grey",
+		"attributes": {
+        "shape":"arrow"
+		},
+		"strokeWidth": 2,
+		"threshold": 0,
+		"text": {
+		  "content": "References (1)",
+		  "font": "Arial",
+		  "color": "black",
+		  "size": 10,
+		  "scale": 1,
+		  "scaling": false,
+		  "style": "none",
+		  "backgroundColor": "rgba(244,244,247,0.8)",
+		  "backgroundMargin": 2,
+		  "threshold": 0,
+		  "maxLineLength": 140,
+		  "secondary": {
+			"content": null,
+			"font": "Arial",
+			"color": "black",
+			"size": 10,
+			"scale": 0.8,
+			"style": "none",
+			"backgroundColor": null,
+			"backgroundMargin": 2
+		  }
+		},
+      "source": 75069,
+      "target": 74410
+    }  
+   
+  ]
+}

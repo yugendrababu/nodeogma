@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "objectFullName": "P1WBTX.WEBTRACKS.PKG_WTRAX_UV_BQ_CYCLESTATUS.SP_BQ_INSERT_COMMENTS",
+        "objectId": "19311",
+        "objectName": "SP_BQ_INSERT_COMMENTS",
+        "objectType": "Oracle procedure",
+        "type": "Oracle PL/SQL",
+        "icon": "./img/sql.svg",
+        "color": "rgb(184, 212, 50)"
+      },
+      "id": 44142,
+      "attributes": {
+        "image": {
+          "url": "./img/sql.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(184, 212, 50)"
+        },
+        "outerStroke": {
+          "width": 2,
+          "color": "transparent"
+        },
+        "badges": {
+          "bottomRight": {
+            "color": "rgb(184, 212, 50)",
+            "stroke": {
+              "color": "rgb(184, 212, 50)"
+            }
+          }
+        },
+        "shape": "circle",
+        "size": 5,
+        "text": {
+          "content": "SP_BQ_INSERT_COMMENTS",
+          "secondary": {
+            "content": "Oracle procedure"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "objectFullName": "P1WBTX.WEBTRACKS.PKG_WTRAX_UV_BQ_CYCLESTATUS.SP_BQ_INSERT_COMMENTS",
+        "objectId": "24843",
+        "objectName": "SP_BQ_INSERT_COMMENTS",
+        "objectType": "Oracle procedure",
+        "type": "Oracle PL/SQL",
+        "icon": "./img/sql.svg",
+        "color": "rgb(184, 212, 50)"
+      },
+      "id": 49414,
+      "attributes": {
+        "image": {
+          "url": "./img/sql.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(184, 212, 50)"
+        },
+        "outerStroke": {
+          "width": 2,
+          "color": "transparent"
+        },
+        "badges": {
+          "bottomRight": {
+            "color": "rgb(184, 212, 50)",
+            "stroke": {
+              "color": "rgb(184, 212, 50)"
+            }
+          }
+        },
+        "shape": "circle",
+        "size": 5,
+        "text": {
+          "content": "SP_BQ_INSERT_COMMENTS",
+          "secondary": {
+            "content": "Oracle procedure"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "objectFullName": "P1WBTX.WEBTRACKS.UV_WTRAX_CYCLESTATUS_REPORT",
+        "objectId": "42567",
+        "objectName": "UV_WTRAX_CYCLESTATUS_REPORT",
+        "objectType": "Oracle table",
+        "type": "Oracle PL/SQL",
+        "icon": "./img/sql.svg",
+        "badgeIcon": "./img/exit-point.svg",
+        "color": "rgb(184, 212, 50)",
+        "transactionStatus": "end"
+      },
+      "id": 63416,
+      "attributes": {
+        "image": {
+          "url": "./img/sql.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(184, 212, 50)"
+        },
+        "outerStroke": {
+          "width": 2,
+          "color": "transparent"
+        },
+        "badges": {
+          "bottomRight": {
+            "color": "#10B410",
+            "stroke": {
+              "color": "#10B410"
+            },
+            "image": "./img/exit-point.svg"
+          }
+        },
+        "shape": "circle",
+        "size": 5,
+        "text": {
+          "content": "UV_WTRAX_CYCLESTATUS_REPORT",
+          "secondary": {
+            "content": "Oracle table"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "objectFullName": "P1WBTX.WEBTRACKS.UV_WTRAX_CYCLESTATUS_COMMENTS",
+        "objectId": "42582",
+        "objectName": "UV_WTRAX_CYCLESTATUS_COMMENTS",
+        "objectType": "Oracle table",
+        "type": "Oracle PL/SQL",
+        "icon": "./img/sql.svg",
+        "badgeIcon": "./img/exit-point.svg",
+        "color": "rgb(184, 212, 50)",
+        "transactionStatus": "end"
+      },
+      "id": 63424,
+      "attributes": {
+        "image": {
+          "url": "./img/sql.svg",
+          "scale": 0.5
+        },
+        "innerStroke": {
+          "width": 2,
+          "color": "rgb(184, 212, 50)"
+        },
+        "outerStroke": {
+          "width": 2,
+          "color": "transparent"
+        },
+        "badges": {
+          "bottomRight": {
+            "color": "#10B410",
+            "stroke": {
+              "color": "#10B410"
+            },
+            "image": "./img/exit-point.svg"
+          }
+        },
+        "shape": "circle",
+        "size": 5,
+        "text": {
+          "content": "UV_WTRAX_CYCLESTATUS_COMMENTS",
+          "secondary": {
+            "content": "Oracle table"
+          }
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 7639,
+      "source": 44142,
+      "target": 63424,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Use(insert )"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 42395,
+      "source": 49414,
+      "target": 44142,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Contain(define)"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 7631,
+      "source": 44142,
+      "target": 49414,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Contain(declare)"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 42395,
+      "source": 49414,
+      "target": 44142,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Contain(define)"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 7631,
+      "source": 44142,
+      "target": 49414,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Contain(declare)"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 57980,
+      "source": 63424,
+      "target": 63416,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Refer()"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 57980,
+      "source": 63424,
+      "target": 63416,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Refer()"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    },
+    {
+      "id": 7639,
+      "source": 44142,
+      "target": 63424,
+      "type": "References",
+      "data": {
+        "type": "References",
+        "callType": " Use(insert )"
+      },
+      "attributes": {
+        "shape": "arrow",
+        "color": "grey",
+        "width": 0.8
+      }
+    }
+  ]
+}
